@@ -1,0 +1,322 @@
+body{
+    
+    background-color: #F1F1F1;
+    font-family: "Roboto", sans-serif;
+}
+
+div{
+    
+    overflow: hidden;
+}
+/*Start left div */
+.left {
+   width: 26.33333%;
+    background-color: #FFF;
+    margin: 30px 8px 0px 85px;
+    display: inline-block;
+    padding-right: 19px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    float: left;
+    box-shadow: 0px 0px 28px 5px #CCC;
+
+
+
+}
+/*Start header*/
+.left .header{
+    background-image: url(../images/IMG20200102205250.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 420px;
+    height: 422px;
+    padding: 0;
+    margin: auto;
+    margin-top: 0;
+}
+.left .header h2{
+    color: #D1D03E;
+    padding: 365px 0 0 10px ;
+}
+/*End header*/
+
+
+/*Start About Me*/
+.left .about-me{
+    margin-top: 15px
+}
+.left .about-me ul{padding-left: 20px  }
+.left .about-me ul li{
+    list-style: none;
+    color:   #757575;
+    float: left;
+}
+.left .about-me ul p{
+    display: block;
+    color: #7E7E7E;
+    font-weight: bold;
+    padding-top:8px; 
+   
+}
+.left .about-me ul li img {
+    border-style: none;
+    width: 35px;
+    display: inline-block;
+    margin-right: 16px;
+}
+hr{
+    
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 15px 40px ;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+/*end About me*/
+
+/*Start my skills*/
+.my-skills span img{
+    width: 35px;
+    padding-left: 15px;
+}
+.my-skills h2{
+    display: inline-block;
+    margin: 0;
+    overflow: hidden;
+    padding: 6px;
+    color: #7E7E7E;
+}
+.my-skills .skills div{
+    height: 25px;
+    display: inline-block;
+    line-height: 25px;
+    text-align: right;
+    color: white;
+    font-weight: bold;
+    margin-left: 3px;
+    border-radius: 15px;
+    background-color: #F1F1F1;
+    width: 395px;
+}
+.my-skills .skills div span{
+   float: left;
+    border-radius: 15px;
+    padding-right: 10px
+}
+.my-skills .skills p{
+    color: #7E7E7E;
+    font-weight: bold;
+    padding:4px 0 0 10px;
+    font-size: 20px;
+   
+}
+/*End my skills*/
+
+/*Start My-lunguages*/
+.my-languages span img{
+    width: 35px;
+    padding-left: 15px;
+}
+.my-languages h2{
+    display: inline-block;
+    margin: 0;
+    overflow: hidden;
+    padding: 6px;
+    color: #7E7E7E;
+}
+.my-languages .languages div{
+   height: 25px;
+    display: inline-block;
+    line-height: 25px;
+    text-align: right;
+    color: white;
+    font-weight: bold;
+    margin-left: 3px;
+    border-radius: 15px;
+    background-color: #F1F1F1;
+    width: 395px;
+}
+.my-languages .languages div span{
+   float: left;
+    border-radius: 15px;
+    padding-right: 10px
+}
+.my-languages .languages p{
+    color: #7E7E7E;
+    font-weight: bold;
+    padding:4px 0 0 10px;
+    font-size: 20px;
+   
+}
+/*End My-lunguages*/
+
+/*Start right div*/
+.right {
+    width: 59.33333%;
+    background-color: #FFF;
+    float: left;
+    margin: 30px 85px 20px 8px;
+    display: inline-block;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 20px 5px #CCC;
+    
+}
+/*Start work-Experience*/
+.work-Experience{
+    margin-bottom: 20px;
+}
+.work-Experience section{
+    display: inline-block;
+}
+.work-Experience .images-one img{
+   width: 50px;
+    padding-left: 15px;
+    margin-top: 23px;
+}
+.work-Experience h2{
+    display: inline-block;
+    margin: 0 0 8 0;
+    overflow: hidden;
+    padding: 6px;
+    color: #7E7E7E;
+}
+.work-Experience b{
+    display: block;
+    color: #7E7E7E;
+    font-weight: bold;
+    padding-top: 25px;
+    margin-left: 40px;
+    font-size: 20px
+   
+}
+.work-Experience .one{
+    display: inline-block;
+}
+.work-Experience .one ul{
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+}
+.work-Experience .one ul li img{
+   width: 20px;
+    padding-left: 40px;
+    margin-top: 20px;
+    padding-right: 10px;
+}
+.work-Experience .one p{
+    display: inline-block;
+    font-size: 20px;
+    margin: 0;
+}
+.work-Experience span p{
+    margin: 0 29px 0 44px;
+    display: block
+}
+/*End work-Experience*/
+
+
+/*Start Education*/
+.Education{
+    width: 59.33333%;
+    background-color: #FFF;
+    float: left;
+    overflow: hidden;
+    margin: 0px 85px 20px 8px;
+    display: block;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 20px 5px #CCC;
+    
+}
+.Education section{
+    display: inline-block;
+}
+.Education .images-one img{
+   width: 45px;
+    padding-left: 15px;
+    margin-top: 23px;
+}
+.Education h2{
+    display: inline-block;
+    margin: 0 0 8 0;
+    overflow: hidden;
+    padding: 0px;
+    color: #7E7E7E;
+}
+.Education b{
+    display: block;
+    color: #7E7E7E;
+    font-weight: bold;
+    padding-top: 25px;
+    margin-left: 40px;
+    font-size: 20px
+   
+}
+.Education .one{
+    display: inline-block;
+}
+.Education .one ul{
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+}
+.Education .one ul li img{
+   width: 20px;
+    padding-left: 40px;
+    margin-top: 20px;
+    padding-right: 10px;
+}
+.Education .one p{
+    display: inline-block;
+    font-size: 20px;
+    margin: 0;
+}
+.Education .one span p{
+    margin: 0 29px 0 44px;
+    display: block
+}
+/*End right div*/
+
+.clearfix{
+    clear: both;
+}
+ /* Start Footer */
+
+
+footer{
+    background-color: #009688;
+    color: #6A6E71;
+    padding: 20px 0;
+    text-align: center;
+    overflow: hidden;
+    font-size: 12px;
+
+    color: white;
+}
+footer span {
+    font-size:20px;
+    color:#2ecc71 ;
+    font-weight: bold;
+}
+footer ul{
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+footer ul li{
+    display: inline-block;
+    width: 20px;
+}
+footer ul li img{
+    width: 100%;
+}
+
+
+
+/* End Footer */
+
+
